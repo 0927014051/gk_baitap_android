@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.TestApp" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimary">@color/green</item>
         <item name="android:fontFamily">@font/sora_regular</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textColor">@color/bgMain_color1</item>
         <!-- Secondary brand color. -->
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/statusBarColor</item>

@@ -10,9 +10,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NHÓM 1 - BÀI 7"
+        android:text="Bai5 - Trinh Thanh Son"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:background="@color/green"/>
     <EditText
         android:layout_width="match_parent"
@@ -55,21 +55,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thêm"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnThem"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Xóa"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnXoa"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sửa"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnSua"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thoát"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnThoat"/>
     </LinearLayout>
 

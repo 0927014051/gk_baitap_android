@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:text="Giỏ hàng"
         android:textSize="30sp"
-        android:textColor="@color/red"
+        android:textColor="@color/black"
+        android:background="@color/green"
         android:gravity="center"/>
     <ListView
         android:layout_width="match_parent"

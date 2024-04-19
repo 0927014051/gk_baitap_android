@@ -21,5 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Chi tiết"
+        android:background="@drawable/botron_button"
         android:id="@+id/btnChiTiet"/>
 </LinearLayout>

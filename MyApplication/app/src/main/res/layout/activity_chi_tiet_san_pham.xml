@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:text="CHI TIẾT SẢN PHẨM"
         android:gravity="center"
-        android:textColor="@color/white"
-        android:background="#912626"/>
+        android:textColor="@color/black"
+        android:background="@color/green"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -40,16 +40,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Xóa"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnXoa"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sửa"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnSua"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Quay lại"
+            android:background="@drawable/botron_button"
             android:id="@+id/btnBack"/>
 
     </LinearLayout>
