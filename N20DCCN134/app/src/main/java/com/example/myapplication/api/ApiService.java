@@ -22,7 +22,7 @@ public interface ApiService {
 //    String ip = Formatter.formatIpAddress(wm.getConnectionInfo().getIpAddress());
 
 
-    ApiService apiservice = new Retrofit.Builder().baseUrl("http://192.168.1.123:9999/").addConverterFactory(GsonConverterFactory.create(gson))
+    ApiService apiservice = new Retrofit.Builder().baseUrl("http://192.168.1.11:9999/").addConverterFactory(GsonConverterFactory.create(gson))
             .build().create(ApiService.class);
 
     //statistic

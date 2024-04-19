@@ -61,7 +61,7 @@ public class AdminSaleStatisticActivity extends AppCompatActivity {
 
     }
     private void setEvent() {
-        String token = "Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3MTM1MDQ0NTgsImV4cCI6MTcxNDEwOTI1OCwidXNlcm5hbWUiOiIrODQ4NDUwMDI0MDUiLCJhdXRob3JpdGllcyI6IlNUQUZGIn0.yxomSDLjsFGtBbcgjjqimH4cD9q-ogtNsVc_OwOxbXSfPk_fKa-NeIGKYNIDL1mX";
+        String token = "Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3MTM1NTM2MTIsImV4cCI6MTcxNDE1ODQxMiwidXNlcm5hbWUiOiIwOTI3MDE0MDUxIiwiYXV0aG9yaXRpZXMiOiJTVEFGRiJ9.UB7ZgQnA5Kkmai1YCU0Dwum0ouTGvrRcw9j8K7rcfbLwpKYHuVH7U0pilL6s-KPT";
 
 
         String year = new SimpleDateFormat("yyyy", Locale.getDefault()).format(new Date().getTime());
